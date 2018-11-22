@@ -1,0 +1,3 @@
+# Spring Cloud Bootstrap Configuration
+org.springframework.cloud.bootstrap.BootstrapConfiguration=\
+  com.github.eks5115.docker.depend.spring.boot.autoconfigure.DockerDependAutoConfiguration
