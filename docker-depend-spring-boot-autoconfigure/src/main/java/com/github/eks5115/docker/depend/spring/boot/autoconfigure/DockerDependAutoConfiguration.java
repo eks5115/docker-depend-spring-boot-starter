@@ -49,6 +49,7 @@ public class DockerDependAutoConfiguration {
 
         List<DockerDependProperties.Service> services = dockerDependProperties.getServices();
         boolean stubborn = dockerDependProperties.isStubborn();
+        int delayTimeAfterSuccess = dockerDependProperties.getDelayTimeAfterSuccess();
         int retry = dockerDependProperties.getRetry();
         int interval = dockerDependProperties.getInterval();
 
@@ -89,6 +90,6 @@ public class DockerDependAutoConfiguration {
             }
         }
 
-        Thread.sleep(10000);
+        Thread.sleep(delayTimeAfterSuccess);
     }
 }
