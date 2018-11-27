@@ -4,7 +4,7 @@
 
     <groupId>com.github.eks5115</groupId>
     <artifactId>docker-depend-spring-boot-parent</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <packaging>pom</packaging>
 
     <name>docker-depend-spring-boot-parent</name>
@@ -26,7 +26,7 @@
         <connection>scm:git:git://github.com/eks5115/docker-depend-spring-boot-starter.git</connection>
         <developerConnection>scm:git:git@github.com:eks5115/docker-depend-spring-boot-starter.git</developerConnection>
         <url>http://github.com/eks5115/docker-depend-spring-boot-starter/tree/master</url>
-        <tag>HEAD</tag>
+        <tag>0.0.2</tag>
     </scm>
 
     <modules>
